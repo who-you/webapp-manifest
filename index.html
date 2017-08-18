@@ -6,6 +6,11 @@
     <meta name="description" content="github">
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <title>github-test</title>
+    <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js');
+    }
+    </script>
 </head>
 <body>
 install Test
